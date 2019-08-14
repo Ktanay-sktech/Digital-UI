@@ -217,6 +217,11 @@ section {
     padding: 100px 0;
 }
 
+.content-box-sm {
+    padding: 90px 0;
+}
+
+
 /*======================
  VERTICAL/HORIZONTAL HEADING
   ======================*/
@@ -865,4 +870,26 @@ testimonial
 .stats-item:hover i {
     transform: translateY(-8px);
     color: #212226;
+}
+
+/*======================
+Client
+ ======================*/
+#clients .h-heading {
+    margin-bottom: 30px;
+}
+
+#clients-list {
+    padding-top: 45px;
+}
+
+#clients-list .client {
+    padding: 0 10px;
+    max-width: 150px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+#clients-list .client img {
+    display: inline-block !important;
 }
