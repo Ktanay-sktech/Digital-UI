@@ -4,7 +4,7 @@
 
 html,
 body {
-    height: 150%;
+    height: 130%;
 }
 
 body {
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway"
+    font-family: "Raleway";
 }
 
 p {
@@ -34,6 +34,7 @@ p {
 }
 
 section {
+    background: #ffff;
     overflow: hidden;
 }
 
@@ -75,7 +76,7 @@ section {
     position: fixed;
     top: 50%;
     left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
+
     transform: translateX(-50%) translateY(-50%);
     min-width: 100%;
     min-height: 100%;
@@ -83,7 +84,7 @@ section {
     height: auto;
     z-index: -100;
     background: url("../video/solo.jpg") no-repeat;
-    */ background-size: cover;
+    background-size: cover;
 }
 
 #home-overlay {
@@ -96,9 +97,10 @@ section {
     /* Full height (cover the whole page) */
     top: 0;
     left: 0;
-    z-index: 1;
 
 }
+
+
 
 #home-content {
     width: 100%;
@@ -118,6 +120,7 @@ section {
     text-transform: uppercase;
     margin: 0;
     display: inline-block;
+
 }
 
 #home-heading h1 span {
@@ -143,6 +146,7 @@ section {
     text-transform: uppercase;
     margin: 0 10px;
     transition: all 0.5s;
+
 }
 
 .btn-general:hover,
@@ -1012,4 +1016,69 @@ blog
 
 #contact-right form textarea.form-control {
     min-height: 160px;
+}
+
+/*======================
+ FOOTER
+  ======================*/
+footer {
+    background: #212226;
+    padding: 30px;
+}
+
+footer p {
+    color: #ffff;
+    line-height: 20px;
+
+}
+
+footer p span {
+    color: #f4c613;
+}
+
+.wrapper {
+    /* box-sizing: border-box;*/
+    width: 90%;
+    /*margin: auto;*/
+
+}
+
+.nav-flex {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 2px;
+    text-align: center;
+
+}
+
+.nav-flex li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 400px;
+
+}
+
+.nav-flex li a {
+    color: #ffff;
+    text-decoration: none;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    padding-top: 0;
+    padding-left: 50px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.nav-flex li a:hover {
+    color: #f4c613;
+    font-weight: 500;
+    /*background-color:rgba(0,0,0,0.4);*/
 }
