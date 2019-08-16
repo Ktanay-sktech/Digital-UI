@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="css/animate/animate.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -37,6 +39,28 @@
     </div>
     <!-- Home -->
     <section id="home">
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-fixed-top">
+                <nav class="wrapper">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#home">
+                            <img src="images/solo-images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="nav-flex">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#team">TEAM</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#work">WORK</a></li>
+                        <li><a href="#blog">BLOG</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+        <!-- header ends -->
         <!-- Background Video -->
         <video id="home-bg-video" poster="video/solo.jpg" autoplay loop muted>
             <source src="video/solo.mp4" type="video/mp4">
@@ -44,51 +68,25 @@
             <source src="video/solo.webm" type="video/webm">
         </video>
         <!-- Overlay -->
-        <div id="home-overlay">
-            <!-- header  -->
-            <header>
-                <nav class="navbar navbar-fixed-top">
-                    <div class="container-fluid">
-                        <nav class="wrapper">
-                            <div class="navbar-header">
-                                <a class="navbar-brand" href="#home">
-                                    <img src="images/solo-images/logo/logo.png" alt="logo">
-                                </a>
-                            </div>
-                            <ul class="nav-flex">
-                                <li><a href="#home">HOME</a></li>
-                                <li><a href="#about">ABOUT</a></li>
-                                <li><a href="#team">TEAM</a></li>
-                                <li><a href="#services">SERVICES</a></li>
-                                <li><a href="#work">WORK</a></li>
-                                <li><a href="#blog">BLOG</a></li>
-                                <li><a href="#contact">CONTACT</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </nav>
-            </header>
-            <!-- header ends -->
-            <!-- Home Content -->
-            <div id="home-content">
-                <div id="home-content-inner" class="text-center">
-                    <div id="home-heading">
-                        <h1 id="home-heading-1">Digital</h1><br>
-                        <h1 id="home-heading-2">Creative <span>Agency</span></h1>
-                    </div>
-                    <div id="home-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam in nihil minima unde qui nihil minima.</p>
-                    </div>
-                    <div id="home-btn">
-                        <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Start Now</a>
-                    </div>
+        <!-- Home Content -->
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Digital</h1><br>
+                    <h1 id="home-heading-2">Creative <span>Agency</span></h1>
+                </div>
+                <div id="home-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam in nihil minima unde qui nihil minima.</p>
+                </div>
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Start Now</a>
                 </div>
             </div>
-            <!-- Arrow Down -->
-            <a href="#about" id="arw-down">
-                <i class="fa fa-angle-down"></i>
-            </a>
         </div>
+        <!-- Arrow Down -->
+        <a href="#about" id="arw-down">
+            <i class="fa fa-angle-down"></i>
+        </a>
     </section>
     <!-- Home Ends -->
     <!-- About -->
