@@ -109,7 +109,11 @@ $(function() {
     new WOW().init();
 });
 $(window).on('load', function() {
-    $("#home-heading-1").addClass("animated fadeInDown")
+    $("#home-heading-1").addClass("animated fadeInDown");
+    $("#home-heading-2").addClass("animated fadeInLeft");
+     $("#home-text").addClass("animated zoomIn");
+    $("#home-btn").addClass("animated zoomIn");
+    $("#arw-down").addClass("animated fadeInDown infinite");
 });
 
 //Sticky navbar
